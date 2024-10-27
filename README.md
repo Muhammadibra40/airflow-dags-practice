@@ -1,6 +1,5 @@
 Here's the suggested README content formatted in Markdown for you:
 
-```markdown
 # Airflow DAGs Practice
 
 Welcome to my **Airflow DAGs Practice** repository! This repository is dedicated to learning and practicing **Apache Airflow**, a powerful platform used for orchestrating complex workflows and data pipelines.
