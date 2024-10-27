@@ -13,9 +13,6 @@ Welcome to my **Airflow DAGs Practice** repository! This repository is dedicated
 - [DAGs Overview](#dags-overview)
 - [How to Run](#how-to-run)
 - [Useful Commands](#useful-commands)
-- [Common Issues](#common-issues)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -87,18 +84,7 @@ airflow-dags-practice/
 
 ## DAGs Overview
 
-Here’s a brief description of the DAGs available in this repository:
-
-1. **example_dag_1.py**: 
-   - Demonstrates basic scheduling and task dependencies using `PythonOperator` and `BashOperator`.
-   - Simulates a simple ETL workflow (Extract, Transform, Load).
-
-2. **example_dag_2.py**:
-   - Showcases the use of branching and conditional tasks.
-   - Utilizes the `BranchPythonOperator` to decide the next step in the workflow based on dynamic conditions.
-
-3. **example_dag_3.py**:
-   - Implements advanced features such as task retries, SLAs, and triggering external DAGs.
+The Dags here covers all Python and bash operators that can be used in airflow in addition to examples of using cross communication (xcom) in airflow then, getting into TaskFlow which reliefs us from the overheache of using python operators and just using a pure python.
 
 ## How to Run
 
